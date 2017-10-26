@@ -9,7 +9,7 @@ describe('/ route',
           function (done) {
             request(app)
               .get('/')
-              .expect('Content-TypeX', /text\/html/)
+              .expect('Content-Type', /text\/html/)
               .expect(200, done);
           }
         );
